@@ -16,7 +16,7 @@ model = np.poly1d(coefficients)
 x_line = np.linspace(min(x), max(x), 100)
 y_line = model(x_line)
 
-# Plot
+# Plotting
 plt.scatter(x, y)
 plt.plot(x_line, y_line)
 plt.xlabel("Day")
